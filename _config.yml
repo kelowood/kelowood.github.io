@@ -1,7 +1,5 @@
 # Jekyll configuration
 markdown: kramdown
-highlighter : rouge
-paginate: 10
 
 theme: jekyll-theme-midnight
 
