@@ -3,7 +3,5 @@ markdown: kramdown
 highlighter : rouge
 paginate: 10
 
-title: Kelowood Blog
-
 theme: jekyll-theme-midnight
 
