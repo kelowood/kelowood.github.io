@@ -1,1 +1,9 @@
+# Jekyll configuration
+markdown: kramdown
+highlighter : rouge
+paginate: 10
+language: 'en-uk'
+title: Kelowood Blog
+
 theme: jekyll-theme-midnight
+
