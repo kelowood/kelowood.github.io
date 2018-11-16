@@ -10,6 +10,9 @@ categories:
 
 
 수학식 예시
+
+\\( 1/x^{2} \\)
+
 $$
 \begin{align*}
 y = y(x, t) &= Ae^{i\theta} \\
