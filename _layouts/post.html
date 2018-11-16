@@ -44,14 +44,12 @@ layout: compress
     {% if site.mathjax == true %}
     <!-- MathJax -->
     <script type="text/x-mathjax-config">
-	    MathJax.Hub.Config(
-		{
-		},
-		tex2jax: 
-		{
-			inlineMath: [ ['$','$'], ['\(', '\)'] ],
-			displayMath: [ ['$$','$$'] ],
-			processEscapes: true,
+	    MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [ ['$','$'], ['\(', '\)'] ],
+				displayMath: [ ['$$','$$'] ],
+				processEscapes: true
+			}
 		});
 	</script>
     <!-- OldCode <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
