@@ -1,5 +1,7 @@
 ---
+layout: post
 title: "타이포라 테스트중."
+date: 2018-11-15
 categories:
   - Test
 ---
