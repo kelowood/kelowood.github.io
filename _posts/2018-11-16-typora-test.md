@@ -11,15 +11,12 @@ categories:
 
 수학식 예시
 
+
+
+\\[ \frac{1}{n^{2}} \\]
+
 \\( 1/x^{2} \\)
 
-$$
-\begin{align*}
-y = y(x, t) &= Ae^{i\theta} \\
-            &= i \cos\theta + i\sin\theta \\
-            &= 123
-\end{align*}
-$$
 
 
 시퀀스다이어그램 예시
