@@ -2,7 +2,7 @@
 # External gems
 # See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
 plugins:
-  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-archives
   - jekyll-sitemap
   - jekyll-paginate
   
@@ -11,7 +11,7 @@ exclude:
 
 # 사이트 세팅
 title: 켈로우드 개발 블로그
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+subtitle: "프로그래밍 블로그. 이것저것 다룹니다."
 email: kelowood@hotmail.com
 name: Kelowood
 description: >
@@ -21,7 +21,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://kelowood.github.io/" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
+cover: "/assets/Beautiful-Winter-Night-620x388.jpg"
 logo: "/assets/logo.png"
 
 # 빌드 세팅
@@ -71,12 +71,6 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: true
 
   - name: Facebook
     icon: facebook
@@ -87,15 +81,15 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
+    username: kelowood
+    url: https://github.com/kelowood
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: kelowood
+    url: https://www.linkedin.com/in/%EB%8F%99%EB%AF%BC-%EA%B9%80-351a81133/
     desc: Connect with me on LinkedIn
     share: true
 
@@ -104,7 +98,7 @@ social:
     username:
     url:
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
@@ -115,9 +109,23 @@ social:
 
   - name: Instagram
     icon: instagram
-    username:
-    url:
+    username: kelowood
+    url: https://www.instagram.com/kelowood/
     desc: Follow me on Instagram
+    share: true
+
+  - name: Steam
+    icon: steam
+    username: kelowood
+    url: https://steamcommunity.com/profiles/76561198144435275/
+    desc: Friend me on Steam
+    share: true
+
+  - name: Twitter
+    icon: twitter
+    username: 
+    url: 
+    desc: Follow me on Twitter
     share: false
 
   - name: Pinterest
@@ -125,7 +133,7 @@ social:
     username:
     url:
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
@@ -139,13 +147,6 @@ social:
     username:
     url:
     desc: Follow me on Tumblr
-    share: false
-
-  - name: Steam
-    icon: steam
-    username:
-    url:
-    desc: Friend me on Steam
     share: false
 
   - name: Dribbble
@@ -174,7 +175,7 @@ social:
     username:
     url:
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news
