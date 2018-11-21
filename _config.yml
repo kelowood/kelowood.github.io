@@ -9,7 +9,7 @@ plugins:
 exclude:
   - "/vendor/"
 
-# 사이트 세팅
+# 사이트 세팅-------------------------------------------------------------------------
 title: 켈로우드 개발 블로그
 subtitle: "프로그래밍 블로그. 이것저것 다룹니다."
 email: kelowood@hotmail.com
@@ -23,15 +23,22 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://kelowood.github.io/" # the base hostname & protocol for your site
 cover: "/assets/Beautiful-Winter-Night-620x388.jpg"
 logo: "/assets/logo.png"
+timezone: Asia/Seoul
 
-# 빌드 세팅
+# 빌드 세팅----------------------------------------------------------------------------
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  highlighter: rouge
+
 paginate: 5
 paginate_path: "/page:num/"
+
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
 
-# 아카이브 세팅 (see https://github.com/jekyll/jekyll-archives/)
+# 아카이브 세팅 (see https://github.com/jekyll/jekyll-archives/)---------------
 jekyll-archives:
   enabled:
     - categories
@@ -40,19 +47,21 @@ jekyll-archives:
   permalinks:
     category: '/category/:name/'
     tag: '/tag/:name/'
+
+github: [metadata]
   
-# Disqus comments
+# Disqus comments-----------------------------------------------------------------------
 # disqus_shortname: kelowood
 
-# Google analytics
+# Google analytics----------------------------------------------------------------------
 # ga_tracking_id: "UA-XXXX-1"
 
-# Category descriptions (for archive pages)
+# Category descriptions (for archive pages)------------------------------------------
 descriptions:
-  - cat: jekyll
-    desc: "지킬 기술 관련 포스트"
+  - cat: Refactoring
+    desc: "리팩토링 관련 포스트"
 
-  - cat: dummy
+  - cat: Dummy
     desc: "테스트용 포스트"
 
 # Social icons and sharing options
