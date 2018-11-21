@@ -1,9 +1,11 @@
 ---
-layout: post
 title:  "리팩토링 Replace Temp with Query : 임시변수를 질의로 바꾸기"
 date:   2018-11-15 12:37:00 +0900
-author: Kelowood
 categories: Refactoring
+categories: 
+  - Refactoring
+tags:
+  - 리팩토링
 ---
 
 
