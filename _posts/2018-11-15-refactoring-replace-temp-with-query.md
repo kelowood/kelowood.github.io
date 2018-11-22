@@ -1,16 +1,16 @@
 ---
 title:  "리팩토링 Replace Temp with Query : 임시변수를 질의로 바꾸기"
 date:   2018-11-15 12:37:00 +0900
-categories: Refactoring
 categories: 
   - Refactoring
 tags:
   - 리팩토링
+toc: true
 ---
 
 
 
-▣ 개요
+## 개요
 
 → 수식의 결과값을 저장하기 위한 용도로 임시변수를 사용하는 거라면 <font color="#4f81bd"> 수식을 질의 메소드로 바꾼다.</font>
 
@@ -22,7 +22,7 @@ tags:
 
 
 
-▣ 사용 필요성
+## 사용 필요성
 
 → 임시변수에 값이 한번만 대입되고 대입문을 만드는 수식이 부작용을 초래하지 않을때 사용한다.
 
@@ -30,7 +30,7 @@ tags:
 
 
 
-▣ 예시
+## 예시
 
 ```c#
 double GetPrice()
